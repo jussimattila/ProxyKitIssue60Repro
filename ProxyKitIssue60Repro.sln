@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AureliaWebApp", "AureliaWebApp\AureliaWebApp.csproj", "{4D0A38F6-13A7-4D52-B271-ABA491AAAF7F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Proxy", "Proxy\Proxy.csproj", "{BB176733-7DFD-40BD-8BDF-FE4F62E7F9F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{96A59D80-299C-4DED-8311-DEA0F811219B}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FailingProxy", "FailingProxy\FailingProxy.csproj", "{872ADE05-CCE5-481D-9275-9D1C9BE32135}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D0A38F6-13A7-4D52-B271-ABA491AAAF7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D0A38F6-13A7-4D52-B271-ABA491AAAF7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D0A38F6-13A7-4D52-B271-ABA491AAAF7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D0A38F6-13A7-4D52-B271-ABA491AAAF7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB176733-7DFD-40BD-8BDF-FE4F62E7F9F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB176733-7DFD-40BD-8BDF-FE4F62E7F9F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB176733-7DFD-40BD-8BDF-FE4F62E7F9F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB176733-7DFD-40BD-8BDF-FE4F62E7F9F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{872ADE05-CCE5-481D-9275-9D1C9BE32135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{872ADE05-CCE5-481D-9275-9D1C9BE32135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{872ADE05-CCE5-481D-9275-9D1C9BE32135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{872ADE05-CCE5-481D-9275-9D1C9BE32135}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC4A7057-4372-4F5C-8C83-776F4EA908A0}
+	EndGlobalSection
+EndGlobal
