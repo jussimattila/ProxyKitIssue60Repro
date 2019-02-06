@@ -1,6 +1,6 @@
 # ProxyKitIssue60Repro
 
-You'll need a recent version of [node.js](https://nodejs.org) installed.
+You'll need a recent version of [node.js](https://nodejs.org) installed. You need to `npm install` or you will get an exception because of missing JavaScript libs.
 
 In Visual Studio, set multiple StartUp projects: AureliaWebApp and FailingProxy. Run the apps and wait for them to start. Modify for example [home.html](AureliaWebApp/ClientApp/home/home.html), save the file and see HMR replace the content in AureliaWebApp, unless running over FailingProxy. FailingProxy will eventually throw an exception similar to this:
 ```
